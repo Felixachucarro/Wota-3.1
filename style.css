@@ -286,9 +286,11 @@ header .menu.active{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-
-}
+    }
+     
+    section #btn{
+        display: none;
+    }
 header ul{
     display: none;
 }
@@ -320,6 +322,10 @@ header ul{
 
     section #text{
         font-size: 6em;
+    }
+     
+    section #btn{
+        display: none;
     }
 
     header ul{
